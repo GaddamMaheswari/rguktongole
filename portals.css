@@ -1,0 +1,169 @@
+.rgukt-logo{
+    height:50px;
+    width:50px;
+
+}
+.p::first-letter{
+
+    font-size:50px;
+}
+.p{
+  font-size:30px;
+  color:brown;
+}
+
+.hover{
+font-size: 20px;
+font-weight: bold;
+color:black
+}
+.dwitem:hover{
+background-color: orangered;
+}
+
+body {
+background-color: white;
+display: flex;
+flex-direction: column;
+}
+
+.student-portal,
+.staff-portal,
+.studentwelfare-portal,
+.placement-portal {
+margin-bottom: 20px;
+background-color: white;
+border-radius: 2px;
+border-width: 0.5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+text-align: center;
+cursor: pointer;
+text-transform: capitalize;
+height: 150px;
+width: 150px;
+padding-top: 30px;
+}
+
+.text {
+font-size: 15px;
+color: black;
+}
+
+
+.student-popup-container,
+.staff-popup-container,
+.studentwelfare-popup-container {
+position: fixed;
+top: 20%;
+left: 50%;
+transform: translate(-50%);
+background-color: white;
+display: flex;
+justify-content: center;
+z-index: 30;
+flex-direction: column;
+padding: 20px;
+border: 4px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+opacity: 1;
+transition: all 0.7s;
+text-align: center;
+
+}
+
+.active.student-popup-container,
+.active.staff-popup-container,
+.active.studentwelfare-popup-container {
+visibility: hidden;
+opacity: 0;
+top: 10%;
+}
+
+.modal-header {
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.modal-header .title {
+font-size: 2rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+.modal-header .close-button,
+.studentwelfare-close-button,
+.staff-close-button {
+cursor: pointer;
+font-weight: bold;
+border: none;
+background-color: white;
+
+}
+
+.modal-body {
+padding: 20px;
+}
+
+.modal-body .modal-input {
+display: flex;
+width: 100%;
+margin-bottom: 15px;
+
+
+}
+
+.modal-body .modal-input .icon {
+background-color: black;
+padding: 10px;
+margin: 0;
+color: white;
+text-align: center;
+}
+
+.modal-body .login {
+background-color: black;
+padding: 10px;
+border-radius: 5px;
+text-transform: capitalize;
+color: white;
+}
+
+#overlay {
+position: fixed;
+opacity: 0;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+pointer-events: none;
+
+}
+
+#overlay.active {
+pointer-events: all;
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.class{
+margin-top:25px;
+
+}
+.chan{
+background-color: aliceblue;
+padding:10px;
+
+}
+a{
+text-decoration: none;
+color:black
+}
+
+
+.body{
+background-image: url("https://www.rguktong.ac.in/svgs/carosel/ssn.png");
+height:100vh;
+width:100vw;
+background-color:rgb(96, 229, 189) ;
+}

@@ -1,0 +1,63 @@
+
+.attendance-container {
+    margin-left: 260px;
+    text-align: center;
+    min-height: 100vh;
+    font-family: Times New Roman;
+    margin-bottom: 0px;
+}
+
+.line {
+    height: 0.5px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.attendance-heading {
+    font-weight: 200;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.person-details {}
+
+.person-image {
+    height: 30vh;
+    width: 25vw;
+    border-radius: 15px;
+}
+
+.person-name {
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 22px;
+
+}
+
+.person-id {
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.attendance-text {
+    font-size: 23px;
+}
+
+.percent {
+    height: 2vh;
+    width: 45vw;
+    background-color: lightgrey;
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+
+.last-heading {
+    font-size: 34px;
+}
+
+.table-container {}
